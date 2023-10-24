@@ -5,7 +5,9 @@ The aim of this experiment is to implement and compare two popular searching alg
 Theory
 Linear Search: Linear search is a basic searching algorithm that examines each element of the array one by one until a match is found or the entire array is traversed. It's simple but not very efficient for large arrays, as it has a time complexity of O(n).
 
-Binary Search: Binary search is a more efficient algorithm for searching in a sorted array. It works by repeatedly dividing the search interval in half. It has a time complexity of O(log n), making it faster for larger datasets.
+Binary Search:
+
+Binary search is a more efficient algorithm for searching in a sorted array. It works by repeatedly dividing the search interval in half. It has a time complexity of O(log n), making it faster for larger datasets.
 
 Algorithm
 Linear Search
@@ -15,6 +17,7 @@ Start a loop to traverse the array.
 For each element in the array, check if it matches the target element.
 If a match is found, return the index where it was found.
 If no match is found after traversing the entire array, return -1 to indicate the element was not found.
+
 Binary Search
 Similar to Linear Search, take user input for the size of the array and the array elements.
 Take input for the target element you want to search.
